@@ -11,8 +11,7 @@ import frc.robot.commands.DefaultDriveCommand;
 import frc.robot.subsystems.DrivetrainSubsystem;
 
 public class RobotContainer {
-
-  private final DrivetrainSubsystem drivetrainSubsystem = new DrivetrainSubsystem();
+  private DrivetrainSubsystem drivetrainSubsystem = new DrivetrainSubsystem();
 
 //Create Joystick objects and declares joystick buttons
   public final static Joystick leftJoy = new Joystick(Constants.leftJoystick);
