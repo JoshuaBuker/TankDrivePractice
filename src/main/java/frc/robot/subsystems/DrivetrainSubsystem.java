@@ -28,6 +28,7 @@ public class DrivetrainSubsystem extends SubsystemBase {
 
   public DrivetrainSubsystem() {
     differentialDrive = new DifferentialDrive(leftMotors, rightMotors);
+    differentialDrive.setDeadband(.05);
   }
 
 //Create Drive Command
